@@ -1,0 +1,22 @@
+{
+  "name": "playwrightautomation1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tests" :"npx playwright test",
+    "Allurereport" : "npx playwright test --reporter : 'line , Allurereport'",
+    "Anila" : "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+ "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.17",
+    "allure-playwright": "^3.2.2"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
