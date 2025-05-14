@@ -16,6 +16,7 @@ await worksheet.eachRow((row,rowNumber)=>{
 });
 
 test.only('excel', async()=>{
+test('excel', async()=>{
     const Workbook = await new ExcelJs.Workbook();
     await Workbook.xlsx.readFile('.\\testdata\\download.xlsx');
     
