@@ -11,7 +11,7 @@ test("loginform",async ({browser,page})=>{
     //await page.pause(); 
 
 })
-test.only('Switching to new tab', async({browser})=>{
+test('Switching to new tab', async({browser})=>{
     const context = await browser.newContext();
     const page = await context.newPage();
     await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
