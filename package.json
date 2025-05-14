@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "tests" :"npx playwright test",
-    "Allurereport" : "npx playwright test --reporter : 'line , Allurereport'",
-    "Anila" : "npx playwright test"
+    "tests": "npx playwright test",
+    "Allurereport": "npx playwright test --reporter : 'line , Allurereport'",
+    "Anila": "npx playwright test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
- "devDependencies": {
+  "devDependencies": {
+    "@azure/microsoft-playwright-testing": "^1.0.0-beta.7",
     "@playwright/test": "^1.52.0",
     "@types/node": "^22.15.17",
     "allure-playwright": "^3.2.2"
